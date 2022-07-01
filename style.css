@@ -1,0 +1,31 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+section {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+}
+.bg {
+   margin-top: 125px;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: url(./img/photo1.jpg);
+   background-size: cover;
+   background-position: center;
+   overflow: hidden;
+}
+.paper {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: url(./img/white-ripped-paper-black-background.jpg);
+   background-size: cover;
+   background-position: center;
+   mix-blend-mode: lighten;
+   filter: brightness(1.1);
+
+}
